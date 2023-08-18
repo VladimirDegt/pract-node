@@ -5,14 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "start": "node index",
+    "dev": "nodemon app"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
+    "express": "^4.18.2",
     "joi": "^17.9.2",
+    "morgan": "^1.10.0",
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
